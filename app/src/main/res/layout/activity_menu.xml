@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐌 Welcome to Snail Run"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnPlaySlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button Play Slow Speed"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFCC80"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnPlayFast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button Play Fast Speed"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFAB91"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_sensor_gameplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensor Mode - Cruising Speed"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#90CAF9"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_sensor_gameplay_accel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensor Mode With Acceleration"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#81C784"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnTop10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top 10 Scores with Map"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#B39DDB"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
